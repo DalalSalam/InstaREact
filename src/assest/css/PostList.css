@@ -1,0 +1,11 @@
+.postList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.postList > * {
+  flex: 1 1 200px;
+}
+
+/* (> *) is a CSS selector. It targets all direct child elements of the .postList div. In this case, these child elements are the PostCard components. */
